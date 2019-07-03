@@ -1,0 +1,57 @@
+baseURL = "/"
+languageCode = "zh-cmn-Hans"
+title = "ingestion.life"
+theme = "mainroad"
+disableHugoGeneratorInject = true
+DefaultContentLanguage = "zh-cn"
+
+paginate = "10" # Number of posts per page
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "James Swineson"
+  bio = "这个人很懒，什么都没有留下。"
+  avatar = "img/avatar.png"
+
+[Params]
+  subtitle = "菜是原罪" # Subtitle of your site. Used in site header
+  description = "" # Site description. Used in meta description
+  #copyright = "John Doe" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["dish", "research"] # specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006年1月2日" # change the format of dates
+  #mathjax = true # Enable MathJax
+  #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  #highlightColor = "#e22d30" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+#[Params.widgets.social]
+  # Enable parts of social widget
+  #facebook = "username"
+  #twitter = "username"
+  #instagram = "username"
+  #linkedin = "username"
+  #telegram = "username"
+  #github = "username"
+  #gitlab = "username"
+  #bitbucket = "username"
+  #email = "example@example.com"
