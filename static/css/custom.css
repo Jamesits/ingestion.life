@@ -1,3 +1,8 @@
 .footer__copyright-credits {
     display: none;
 }
+
+:not(article) ul, 
+:not(article) ol {
+    padding-left: initial !important;
+}
