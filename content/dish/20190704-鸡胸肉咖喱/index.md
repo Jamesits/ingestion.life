@@ -8,10 +8,11 @@ comments: false # Enable/disable Disqus comments. Default value: true
 # authorbox: true # Enable authorbox for specific post
 toc: true # Optional, enable Table of Contents for specific post
 categories:
-  - "中餐"
+  - "日本料理"
 tags:
   - "鸡"
-  - "鸡翅"
+  - "鸡胸肉"
+  - "咖喱"
 draft: false
 ---
 
