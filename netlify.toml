@@ -1,0 +1,20 @@
+[build]
+publish = "public"
+command = "hugo" 
+
+[build.environment]
+HUGO_VERSION = "0.55.6"
+
+[[redirects]]
+  from = "https://ingestion.life/*"
+  to = "https://www.ingestion.life/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
