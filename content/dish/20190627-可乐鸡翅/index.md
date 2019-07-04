@@ -8,12 +8,11 @@ comments: false # Enable/disable Disqus comments. Default value: true
 # authorbox: true # Enable authorbox for specific post
 toc: true # Optional, enable Table of Contents for specific post
 categories:
-  - "Category 1"
-  - "Category 2"
+  - "中餐"
 tags:
-  - "Test"
-  - "Another test"
-# menu: main # Optional, add page to a menu. Options: main, side, footer
+  - "鸡"
+  - "鸡翅"
+  - "等比缩放"
 draft: false
 ---
 
@@ -25,7 +24,7 @@ draft: false
 * 料酒
 * 葱
 * 姜
-* 可乐（按 100ml/每鸡翅，锅底比较大的话需要加更多）
+* 可乐（按 100ml/每鸡翅准备，锅底比较大的话需要加更多）
 
 做法：
 
