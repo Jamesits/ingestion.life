@@ -682,7 +682,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .content ul ul,
-.content ol ol {
+.content ol ol,
+.content ol ul,
+.content ul ol {
 	margin: 0 0 0 40px;
 }
 
@@ -690,6 +692,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-bottom: 5px;
 }
 
+.post__footer {
+	margin-top: 20px;
+	margin-top: 1.25rem;
+}
+
+/* Post tags */
 .tags {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
@@ -721,7 +729,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding: 10px 15px;
 }
 
-.icon-tag {
+.tags__badge {
 	float: left;
 	width: 32px;
 	height: 32px;
@@ -1239,7 +1247,9 @@ textarea {
 	}
 
 	.content ul ul,
-	.content ol ol {
+	.content ol ol,
+	.content ol ul,
+	.content ul ol {
 		margin: 0 0 0 20px;
 	}
 
