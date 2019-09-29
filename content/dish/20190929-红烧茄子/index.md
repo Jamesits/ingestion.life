@@ -9,6 +9,8 @@ tags:
 draft: false
 ---
 
+修改自[少油的红烧茄子（家常版）](https://www.xiachufang.com/recipe/103691332/)。
+
 配料：
 
 * 长茄子二到四根（茄子和圆茄子都不太好切并且不容易熟）
